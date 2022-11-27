@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Stoke&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goblin+One&family=Montserrat:wght@100&family=Stoke&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=PT+Serif&family=Poppins:wght@300;400;500;600;700&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    font-family: 'Varela round' sans-serif;
+    font-weight: bold;
+    background-image:linear-gradient(rgb(0,0,0,0.5)rgb(0,0,0,0.5)), url(university.jpg);
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+ }
+
+ .boxContainer{
+    margin: auto;
+    margin-top: 1%;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    border:  4px solid #2980b9;
+    padding: 0px 10px;
+    border-radius: 50px;
+    float: right;
+ }
+
+ .elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: right;
+ }
+ .search{
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 15px;
+    color: #424242;
+    font-weight: 500;
+ }
+
+.navbar{
+    margin: 0px;
+    background: oldlace;
+    text-align: center;
+}
+.navbar ul{
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 850px;
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.navbar ul li{
+    width: 90px;
+    margin: 10px;
+    padding: 1px;
+    margin-right: 10px;
+    margin-top: 20px;
+    float: right;
+    justify-content: flex-end;
+    align-items: center;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover{
+    background-color: #009688;
+    color: white;
+    border-radius: 5px;
+    padding: 8px;
+    transition: 0.2s ease;
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+.logo h2{
+    font-family: 'Goblin One', cursive;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+    align-items: center;
+}
+
+.logo p{
+    margin-top: 3.5%;
+    margin-left: -380px;
+    position: relative;
+    width: 300px;
+    height: 30px;
+    float: left;
+    font-size: smaller;
+}
+
+.menu-bar{
+    margin-top: 1px;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-position: center;
+    background: black;
+    text-align: center;
+}
+.menu-bar ul {
+    margin: 10px;
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu-bar ul li{
+    width: 175px;
+    margin: -5px;
+    padding: 20px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: whitesmoke;   
+}
+.menu-bar ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 5px;
+    padding: 8px;
+    transition: 0.2s ease;
+}
+.sub-menu-1{
+    display: none;    
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    margin-top: 5px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-radius: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+    color: black;
+}
+
+.banner {
+    background-size: 100%;
+    background-position: cover;
+    width: 100%;
+    height: 70vh;
+    background-position: center;
+    animation: animate 16s ease-in-out infinite;
+}
+@keyframes animate{
+   0%,100%{
+    background-image: url(jatinder.jpg);
+   } 
+   25%{
+    background-image: url(uni.jpg);
+   }
+   50%{
+    background-image: url(chancellor.jpeg);
+   }
+
+   75%{
+    background-image: url(library.jpg);
+   }
+   100%{
+    background-image: url(university.jpg);
+   }
+}
+
+
+
+.marque{
+    background-color: goldenrod;
+    color: black;
+    padding-top: 10px;
+    text-align: right;
+}
+
+.background{
+    background: gainsboro;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    background-color:  black;
+    box-sizing: border-box;
+    
+}
+
+.main-content{
+    color: whitesmoke;
+    padding: -40px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.left-box{
+    width: 25%;
+    padding: 30px;
+    margin-left: 10px;
+}
+    
+.center-box{
+    width: 25%;
+    padding: 30px;
+    margin-left: 30px;
+}
+
+.right-box{
+    margin-left: 135px;
+    width: 25%;
+    padding: 20px;
+}
+
+.main-content h2{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 400;
+    position: relative;
+}
+
+.main-content h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.main-content span:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 40%;
+    color: white;
+    transition: all 0.5s ease;   
+}
+
+.social-links a:hover{
+    color: #24262b;
+    background-color: white;
+}
+
+.center-box{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 200;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.right-box{
+    font-size: 15px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+span:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+@media(max-width: 700px){
+    .main-content{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+
+.holdingcontainer{
+    width: 100%;
+    display: flex;
+    background: lightblue;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.internalcontainerL{
+    flex: 1;
+    background: lightyellow;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.internalcontainerL a{
+    background-color: black;
+    color: whitesmoke;
+    padding: 15px 15px;
+    display: block;
+    margin: 10px 50px;
+    cursor: pointer;
+    border-radius: 30px ;
+    font-weight: bold;
+    border-radius: 30px ;
+    border: 2px solid #009688;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    font-weight: bold;   
+}
+
+.internalcontainerL span {
+    background: #009688;
+    height: 100px;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.internalcontainerL a:hover{
+    background-color: tomato;
+    color: white;
+    border: none;
+
+}
+
+.internalcontainerM{
+    flex: 3;
+    background: mediumaquamarine;
+    padding: 30px;
+    font-size: 25px;
+    margin: 5px;
+    font-weight: bold;
+    float: right;
+    text-align: center;
+    color: white;
+}
+
+.elements{
+    margin-top: 10%;
+}
+
+.internalcontainerM{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../university.jpg);
+    background-position: cover;
+    height: 70vh;
+    background-position: center;
+}
+
+
+
+@media screen and (max-width: 760px){
+    .holdingcontainer{
+        flex-direction: column;
+    }
+}
+
+button{
+    width: 80px;
+    padding: 10px 0;
+    text-align: centre;
+    margin: 20px 10px;
+    border-radius: 30px ;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    background-color: black;
+    color:  white;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+button span {
+    background: #009688;
+    height: 100px;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover{
+   
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+
+.holdingcontainer1{
+    width: 100%;
+    display: flex;
+    background: whitesmoke;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.holdingcontainer1 h1{
+    text-align: center;
+}
+
+.internalcontainer1{
+    flex: 3;
+    background: lightblue;
+    padding: 40px;
+    font-size: 15px;
+    margin: 5px;
+    display: block;
+    list-style: none;
+}
+
+.internalcontainer2{
+    flex: 1;
+    background: lightblue;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.internalcontainer1 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    display: block;   
+}
+
+.internalcontainer2 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+    display: block;   
+}
+
+.internalcontainer1 ul li a:hover{
+    color: white;
+    padding-left: 5px;
+}
+
+.internalcontainer2 ul li a:hover{
+    color: white;
+    padding-left: 5px;
+}
+
+.holdingcontainer2{
+    width: 100%;
+    display: flex;
+    background: lightblue;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.holdingcontainer2 h1{
+    text-align: center;
+}
+
+.internalcontainer3{
+    flex: 1;
+    background: whitesmoke;
+    padding: 40px;
+    font-size: 15px;
+    margin: 5px;
+    display: block;
+    list-style: none;
+}
+
+
+.internalcontainer4{
+    flex: 1;
+    background: whitesmoke;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.internalcontainer5{
+    flex: 1;
+    background: whitesmoke;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.holdingcontainer2 img{
+    margin-top: 5%;
+    margin-left: 30%;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    padding: 2px;
+    background: black;
+}
+
+.holdingcontainer2 a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color: #24262b;
+    display: block; 
+}
+
+.holdingcontainer2 a:hover{
+    color: orangered;
+    padding-left: 5px;
+}
+
+
+.holdingcontainer3{
+    width: 100%;
+    display: flex;
+    background: whitesmoke;
+    padding: 30px;
+    box-sizing: border-box;
+    flex-direction: row;
+}
+
+.holdingcontainer3 h1{
+    text-align: center;
+}
+
+.internalcontainer6{
+    flex: 1;
+    background: lightblue;
+    padding: 40px;
+    font-size: 15px;
+    margin: 5px;
+    display: block;
+    list-style: none;
+}
+
+
+.internalcontainer7{
+    flex: 1;
+    background: lightblue;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.internalcontainer8{
+    flex: 1;
+    background: lightblue;
+    padding: 30px;
+    font-size: 15px;
+    margin: 5px;
+}
+
+.holdingcontainer3 a{
+    font-size: 16px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-weight: 500;
+    color: #24262b;
+    display: block; 
+}
+
+.holdingcontainer3 a:hover{
+    color: white;
+    padding-left: 5px;
+}

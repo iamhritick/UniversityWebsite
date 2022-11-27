@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=PT+Serif&family=Varela+Round&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'PT Serif', serif;
+    background-color: azure;
+    background-size: cover;
+    background-position: center;
+    margin-top: 195px;
+    margin-left: 450px;
+}
+
+img{
+    margin-left: 300px;
+}
+
+
